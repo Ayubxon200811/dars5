@@ -1,0 +1,384 @@
+html {
+  box-sizing: border-box;
+  background: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+}
+
+.container {
+  width: 1280px;
+  height: 113px;
+  margin: 0 auto;
+}
+
+.header__container {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.header__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__item + .header__item {
+  margin-left: 33px;
+}
+
+.header__bgimg {
+  width: 1280px;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url("../img/Bitmap (1).png");
+  background-color: #fff;
+  margin-bottom: 155px;
+}
+
+.header__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  padding-top: 134px;
+  margin-left: 85px;
+  margin-bottom: 32px;
+}
+
+.header__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 445px;
+  margin-left: 85px;
+}
+
+.header__container2 {
+  width: 1280px;
+  height: 653px;
+  margin: 0 auto;
+  background-color: #293039;
+  position: relative;
+}
+
+.header__span {
+  position: absolute;
+  width: 760px;
+  height: 1px;
+  left: 180.5px;
+  top: 124px;
+  border: 2px solid #FDD6BA;
+}
+
+.header__circle {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 165px;
+  top: 111px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+
+.header__circle2 {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 545px;
+  top: 111px;
+  border-radius: 50%;
+  border: 2px solid #0E8784;
+}
+
+.header__circle3 {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 925px;
+  top: 111px;
+  border-radius: 50%;
+  border: 2px solid #0E8784;
+}
+
+.header__list2 {
+  padding-top: 100px;
+}
+
+.inner__container {
+  width: 1045px;
+  height: 453px;
+  background-color: #293039;
+  margin: 0 auto;
+}
+
+.header__container2 {
+  padding-top: 100px;
+  margin-bottom: 168px;
+}
+
+.list__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  color: #FEFCF7;
+  margin-bottom: 42px;
+  margin-top: 38px;
+  width: 255px;
+}
+
+.list__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  width: 285px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  width: 1185px;
+  margin: 0 auto;
+  margin-bottom: 88px;
+  background-color: #fff;
+  display: flex;
+}
+
+.item__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.hero__box {
+  width: 255px;
+  height: 356px;
+}
+
+.hero__item {
+  display: flex;
+  border-bottom: 2px solid;
+  color: #83888F;
+  gap: 10px;
+  margin-bottom: 24px;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.hero__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #333D4B;
+}
+
+.Capsule {
+  opacity: 0;
+}
+
+.hero-box__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #83888F;
+}
+
+.hero-box__title:hover .Capsule {
+  opacity: 1;
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+  margin-top: 56px;
+  margin-left: 20px;
+}
+
+.Capsule2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #333D4B;
+  margin-left: 50px;
+}
+
+.hero-box__title {
+  margin-left: 50px;
+}
+
+.text2 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333D4B;
+  margin-left: 28px;
+  margin-top: 24px;
+}
+
+.hero__box2__list1 {
+  display: flex;
+}
+
+.hero-box__title .Capsule:active {
+  background-color: aqua;
+  color: #fff;
+}
+
+.hero-box__title .Capsule:active .Capsule2 {
+  color: #fff;
+}
+
+.hero-box__title .Capsule:active .text2 {
+  color: #fff;
+}
+
+.natija {
+  width: 730px;
+  height: 208px;
+  background: #2C343E;
+}
+
+.natija__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.natija {
+  margin-top: 115px;
+  margin-bottom: 40px;
+}
+
+.natija__link {
+  margin-top: 27px;
+}
+
+.title {
+  margin-top: 8px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  color: #FFFFFF;
+}
+
+.link1 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background: #0E8784;
+  border-radius: 6px;
+  padding: 16px 35px;
+}
+
+.footer {
+  width: 1280px;
+  height: 120px;
+  background: #2C343E;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__list {
+  display: flex;
+  margin-left: 103px;
+}
+
+.footer__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.footer__item + .footer__item {
+  margin-left: 33px;
+}
+
+.footer__list1 {
+  display: flex;
+  margin-left: 369px;
+}/*# sourceMappingURL=main.css.map */

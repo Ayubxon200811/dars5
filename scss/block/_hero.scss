@@ -1,0 +1,170 @@
+.hero{
+
+    width: 1185px;
+    margin: 0 auto;
+    margin-bottom: 88px;
+    background-color: #fff;
+    display: flex;
+}
+.item__title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+}
+.hero__box{
+    width: 255px;
+    height: 356px;
+
+
+}
+.hero__item{
+    display: flex;
+    border-bottom: 2px solid ;
+    color: #83888F;;
+    gap: 10px;
+    margin-bottom: 24px;
+    mix-blend-mode: normal;
+opacity: 0.25;  
+}
+.hero__title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+
+color: #333D4B;
+// margin-right: 125px;
+}
+
+    
+.Capsule{
+opacity: 0;
+}
+.hero-box__title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+
+color: #83888F;
+}
+.hero-box__title:hover .Capsule{
+opacity: 1;
+    width: 228px;
+    height: 250px; 
+    background: #F4F1EB;
+    border-radius: 8px;
+    margin-top: 56px;
+    margin-left: 20px;
+
+
+}
+.Capsule2{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+
+color: #333D4B;
+
+margin-left: 50px;
+
+}
+.hero-box__title{
+    margin-left: 50px;
+}
+.text2{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #333D4B;
+margin-left: 28px;
+margin-top: 24px;
+}
+.hero__box2__list1{
+    display: flex;
+
+}
+
+
+.hero-box__title .Capsule:active{
+    background-color: aqua;
+    color: #fff;
+}
+.hero-box__title .Capsule:active .Capsule2{
+    color: #fff;
+}
+.hero-box__title .Capsule:active .text2{
+    color: #fff;
+}
+.natija{
+    width: 730px;
+height: 208px;
+background: #2C343E;
+}
+.natija__link{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+
+}
+.natija{
+    margin-top: 115px;
+    margin-bottom: 40px;
+}
+.natija__link{
+    margin-top: 27px;
+}
+.title{
+    margin-top: 8px;
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+
+color: #FFFFFF;
+
+}
+.link1{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+
+text-align: center;
+color: #FEFCF7;
+background: #0E8784;
+border-radius: 6px;
+    padding: 16px 35px;
+}
